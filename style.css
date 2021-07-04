@@ -6,17 +6,24 @@ body{
 h1{
     font-size: 50px;
 }
+h3{
+    font-size:40px;
+}
+h2{
+    font-size: 45px;
+}
 h1 span{
     color: orange;
     font-weight: bold;
     font-size:55px;
 }
+section{
+    margin-bottom: 150px;
+}
 .first-section{
     display: flex;
     background-image: url("developer-portfolio-master/images/top-banner.png");
     background-repeat: no-repeat;
-    width: 100vh;
-    height: 100vh;
 }
 .half-width{
     width: 50%;
@@ -24,6 +31,10 @@ h1 span{
 }
 .half-width img{
     width: 80%;
+}
+p{
+    padding: 20px 0px;
+    font-size: 30px;
 }
 .link-btn{
     text-decoration: none;
@@ -33,4 +44,48 @@ h1 span{
     font-size: 20px;
     margin: 10px 0px;
     border-radius: 15px;
+}
+.second-section{
+    display: flex;
+    background-image: url("developer-portfolio-master/images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right
+}
+.continer{
+    display: flex;
+}
+.experience h1{
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 5px;
+  font-size:60px;
+}
+.experience .continer h3{
+    color: orange;
+    font-size: 20px;
+}
+.experience{
+    background-image: url("developer-portfolio-master/images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position:left;
+    background-attachment: fixed;
+}
+.experience-item{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right:4%;
+    width: 80%;
+    box-shadow: 0px 0px 36px -5px gray;
+    padding: 20px;
+}
+#ex-item-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(to top, blue, cyan);
+    border-image-slice: 2;
+}
+#ex-item-1{
+    border-left: 10px solid;
+    border-image: linear-gradient(to bottom, hsl(22, 100%, 51%), purple);
+    border-image-slice: 2;
 }
